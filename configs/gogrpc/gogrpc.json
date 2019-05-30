@@ -1,0 +1,19 @@
+{
+    "service": {
+        "port": 6060
+    },
+    "logger": {
+        "infoLog": {
+            "filename": "log/gogrpc.info",
+            "maxAge": "24h"
+        },
+        "warnLog": {
+            "filename": "log/gogrpc.warn",
+            "maxAge": "24h"
+        },
+        "accessLog": {
+            "filename": "log/gogrpc.access",
+            "maxAge": "24h"
+        }
+    }
+}
