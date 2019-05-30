@@ -12,10 +12,6 @@ import (
 	"os"
 )
 
-//func RegisterHandler(r *gin.Engine) {
-//	r.GET("/hello", gohttp.GoHttpHandler)
-//}
-
 // AppVersion name
 var AppVersion = "unknown"
 
